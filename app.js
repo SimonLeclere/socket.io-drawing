@@ -9,5 +9,5 @@ const port = process.env.PORT || 80;
 http.listen(port, () => console.log(`Server running on port ${port}`));
 
 io.on('connection', (socket) => {
-	socket.on('draw', (data) => socket.broadcast.emit('draw', { ...data }));
+	socket.on('draw', (data) => socket.broadcast.emit('draw', data));
 });
