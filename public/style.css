@@ -7,3 +7,9 @@ html, body {
 #canvas {
 	display: block;
 }
+
+.bottomleft {
+	position : fixed;
+  	bottom : 1%;
+  	right : 1%;
+}
