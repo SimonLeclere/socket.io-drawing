@@ -22,6 +22,10 @@ document.addEventListener('DOMContentLoaded', () => {
 	canvas.height = height;
 	context.translate(0.5, 0.5);
 
+	context.fillStyle = '#c2c2c2';
+	context.font = '30px Dancing Script';
+	context.fillText('Just draw anything you like :)', 10, 50);
+
 	let drawing = false;
 	let x, y, prevX, prevY;
 
