@@ -39,7 +39,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
 	canvas.onmouseup = () => {
 		drawing = false;
-		// document.querySelector('meta[property="og:image"]').setAttribute('content', canvas.toDataURL());
 	};
 
 	canvas.onmousemove = (e) => {
